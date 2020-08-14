@@ -1,0 +1,100 @@
+
+/* footer */
+#footer {
+    background: #141414;
+    padding: 70px 0 32px;
+    margin-top: 68px;
+
+}
+
+/* 页脚logo */
+#footer .logoft {
+    width: 440px;
+    color: #818388;
+}
+
+#footer .logoft p {
+    background: url(../imgs/icon.jpg) no-repeat left;
+    line-height: 44px;
+    padding-left: 35px;
+    margin-top: 35px;
+}
+
+/* 页脚链接 */
+#footer .aft {
+    width: 320px;
+}
+
+#footer .aft ul {
+    margin-top: 20px;
+}
+
+#footer .aft ul li {
+    width: 160px;
+    line-height: 42px;
+    float: left;
+}
+
+#footer .aft ul li a {
+    color: #818388;
+}
+
+/* 页脚搜索 */
+#footer .sft {
+    width: 324px;
+    margin-left: 45px;
+}
+
+#footer .sft h3 {
+    margin-bottom: 34px;
+
+}
+
+#footer .sft form input:nth-child(1) {
+    width: 220px;
+    height: 48px;
+    border: 0;
+    background: #333;
+    text-indent: 7px;
+    outline: none;
+}
+
+#footer .sft form input:nth-child(2) {
+    width: 100px;
+    height: 48px;
+    border: 0;
+    background: #3aa27f;
+
+}
+
+#footer .sft .fenxiang {
+    line-height: 32px;
+    font-size: 16px;
+    color: #818388;
+    margin-top: 30px;
+}
+
+#footer .sft .fenxiang .icon {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background: url(../imgs/fenxiang.png) no-repeat;
+    vertical-align: middle;
+}
+
+#footer .sft .fenxiang .icon-wb {
+    background-position: 0px 0px;
+}
+
+#footer .sft .fenxiang .icon-wx {
+    margin-left: 10px;
+    background-position: -44px 0px;
+}
+
+#footer .copy {
+    background: #000;
+    line-height: 76px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 70px;
+}

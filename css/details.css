@@ -1,0 +1,52 @@
+.content{
+    border: 1px solid #e8e8e8;
+}
+.content .details{
+    width: 866px;
+}
+.content .details img{
+    width: 208px;
+    height: 265px;
+    margin-left: 92px;
+    margin-top: 48px;
+}
+.content .details .money h3{
+    width: 510px;
+    line-height: 34px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 20px;
+    margin-top: 54px;
+}
+.content .details .money p{
+    font-size: 20px;
+}
+.content .details p span{
+    color: #bbb8b5;
+    font-size: 14px;
+}
+.content .details div:nth-child(3) p{
+    width: 866px;
+    line-height: 38px;
+    background: #f5f5f5;
+    margin:72px 16px 0 18px;
+    font-size: 14px;
+    color: #a5a5b1;
+}
+.content .details p:nth-child(4){
+    width: 866px;
+    line-height: 25px;
+    margin: 18px 16px 40px 18px;
+    font-size: 14px;
+}
+.content .details p:nth-child(5){
+    font-size: 16px;
+    margin-left: 16px;
+    color: #606369;
+}
+.content .details p:nth-child(6){
+    margin-bottom: 70px;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 13px;
+    color: #606369;
+}

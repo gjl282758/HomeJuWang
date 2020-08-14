@@ -1,0 +1,215 @@
+/* 公用样式表 其他页面也可以使用的样式
+注意：所有选择器都不要从公用样式上通过
+ */
+
+/* 版心 用于固定网页主要内容的宽度，并且水平居中*/
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* 浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 清除盒子与盒子的浮动 */
+.clear {
+    clear: both;
+}
+
+/* 清除固定结构中的浮动 */
+.clearfix:after {
+    content: "";
+    height: 0px;
+    display: block;
+    clear: both;
+}
+
+/* 背景样式 */
+.bgc25 {
+    background: #252525;
+}
+
+/* 字体样式 */
+.cf {
+    color: #fff;
+}
+/* 字体大小 */
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+/* 文本居中 */
+.tacenter{
+    text-align: center;
+}
+
+/* margin样式 */
+.mr20 {
+    margin-right: 20px;
+}
+.mrl26{
+    margin-left: 27px;
+}
+.mt7{
+    margin-top: 7px;
+}
+.mrt26{
+    margin-top: 27px;
+}
+.mrt40{
+    margin-top: 40px;
+}
+.mrl30{
+    margin-left: 30px;
+}
+.mrt12{
+    margin-top: 12px;
+}
+
+/* padding样式 */
+.ptb{
+    padding:25px 0px ;
+}
+/* 背景图 */
+.bgi1{
+    background: url(../imgs/01.jpg);
+}
+.bgi2{
+    background: url(../imgs/02.jpg);
+}
+.bgi3{
+    background: url(../imgs/03.jpg);
+}
+/* 图片 */
+.prli{
+    width: 270px;
+    height: 275px;    
+}
+
+/* 标题样式 */
+.ttop{
+    line-height: 60px;
+}
+.ttoph3{
+    font-size: 28px;
+}
+.ttoph3s{
+    width: 56px;
+    display: block;
+    background: url(../imgs/nav_bg02.png);
+}
+.ttops{
+    display: block;
+    margin-left: 16px;
+    color: #dad9d7;
+}
+
+/* footer */
+.ftul{
+    line-height: 42px;
+    margin-top: 20px;
+}
+.ftul a{
+    color: #525356;
+}
+.titleft{
+    font-size: 20px;
+    color: #fff;
+    background: url(../imgs/nav_bg02.png) no-repeat;
+    background-position: 0 -19px;
+    padding-bottom: 15px;
+}
+/* 蒙版 */
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+.masktxt{
+     width: 100%;
+     height: 80px;
+     color: #15bded;
+     font-size: 22px;
+     position: absolute;
+     top: 50%;
+     left: 0;
+     margin-top: -40px;
+}
+/* 产品标题 */
+.title h3 {
+    line-height: 76px;
+    font-size: 28px;
+    font-weight: normal;
+    background: url(../imgs/nav_bg02.png) no-repeat left bottom;
+    margin-top: 70px;
+}
+
+ .title span {
+    color: #dadbd7;
+}
+/* 小标题 */
+.th3{
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    background: url(../imgs/nav_bg02.png) no-repeat left bottom;
+}
+/* 关于我们 */
+.banner img{
+    width: 100%;
+}
+.bread{
+    line-height: 48px;
+    border-bottom: 1px solid #f3f3f3;
+    color: #818181;
+}
+.bread a{
+    color: #818181;
+}
+/* 侧栏 */
+.silder{
+    width: 260px;
+}
+.silder h3{
+    line-height: 68px;
+    font-size: 22px;
+    font-weight: normal;
+    background: url(../imgs/nav_bg02.png) no-repeat left bottom;
+}
+.silder ul{
+    margin: 24px 0;
+}
+.silder ul li{
+    width: 260px;
+    line-height: 48px;
+    background: #f2f2f2;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.silder img{
+    width: 260px;
+    height: 305px;
+}
+.content{
+    width: 900px;
+    margin: 102px 0;
+}

@@ -1,0 +1,64 @@
+.content h3{
+    font-size: 16px;
+}
+.content form {
+    margin-top: 44px;
+}
+.content form ul li span{
+    color: red;
+}
+.content form ul li:not(:last-child) input{
+    width: 800px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    margin: 14px 0 28px;
+}
+.content form ul .markup{
+    font-size: 14px;
+    margin: 24px 0 40px;
+}
+.content form ul .markup li{
+    float: left;
+    margin-right: 20px;
+}
+.content form ul .markup input{
+   display: none;
+}
+.content form ul .markup span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: green;
+    position: relative;
+}
+.content form ul .markup input:checked~span{
+    background: #e1e1e1;
+}
+.content form ul .markup span:after{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 4px;
+    border: 1px solid #fff;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 1px;
+    left:2px;
+}
+.content form ul textarea{
+    width: 100%;
+    height: 70px;
+    margin-top: 12px;
+}
+.content form .buttum input{
+    width: 100%;
+    height: 48px;
+    margin-top: 26px;
+    background: #21bcd8;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+/* 头部样式 */
+/* 顶部 */
+#header .top {
+    line-height: 42px;
+    min-width: 1200px;
+}
+
+/* 菜单简版 */
+/* logo */
+#header .logo {
+    width: 150px;
+    height: 50px;
+}
+
+/* 菜单导航 */
+#header .menu {
+    height: 50px;
+    line-height: 50px;
+}
+
+/* css制作下拉子菜单 */
+#header .menu>li {
+    float: left;
+    margin: 0px 30px;
+    position: relative;
+}
+
+#header .menu>li>a {
+    font-size: 16px;
+    color: #252525;
+}
+
+#header .menu>li .submenu {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: -16px;
+    display: none;
+    z-index: 10000;
+}
+
+#header .menu>li .submenu li:not(:last-child) {
+    border-bottom: 1px dashed #fff;
+}
+
+#header .menu>li .submenu li {
+    line-height: 30px;
+    background: #15bded;
+    text-align: center;
+    color: #fff;
+}
+
+#header .menu .active {
+    background: url(../imgs/nav_move.jpg) no-repeat center;
+}
+
+#header .menu>li:hover .submenu {
+    display: block;
+}

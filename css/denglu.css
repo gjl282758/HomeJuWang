@@ -1,0 +1,66 @@
+clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+#denglu{
+    width: 330px;
+    height: 330px;
+    background: url(../imgs/121.jpg) no-repeat;
+    padding: 15px 15px;
+    position: relative;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    display: none;
+}
+#jiemian{
+    width: 330px;
+    height: 250px;
+    background: #fff;
+    margin: 0 auto;  
+    padding: 20px 0 60px;
+}
+#jiemian h3{
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#jiemian input{
+    width: 300px;
+    height: 30px;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 4px;
+    border:1px solid  #ccc;
+}
+#sbt{
+    background: #337ab7;
+    color: #fff;
+    width: 304px !important;
+    height: 34px !important;
+    border: 0;
+}
+#jiemian p{
+    float: left;
+    margin-left: 15px;
+}
+#jiemian p a{
+    text-decoration: none;
+}
+#X{
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    font-size: 16px;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    color: #FFF;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+}

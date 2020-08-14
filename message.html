@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入样式重置表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入公用样式表 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入当前页面样式 -->
+    <!-- 引入头部样式表 -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- 引入页脚样式表 -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- 引入关于我们内容样式表 -->
+    <link rel="stylesheet" href="./css/message.css">
+</head>
+
+<body>
+    <!--1. 头部 -->
+    <div id="header">
+        <!-- 顶部 -->
+        <div class="top bgc25 cf">
+            <div class="container">
+                欢迎来到HOUSE家居网
+                <div class="fr">
+                    <a href="#" class="cf mr20"> <img src="./imgs/tel.png" alt=""> 400-00-000xxx </a>
+                    <a href="#" class="cf"><img src="./imgs/mail.png" alt="">1234567xxx@gmail.com</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- 菜单 -->
+        <div class="container clearfix ptb">
+            <!-- logo -->
+            <a href="#"> <img src="./imgs/logo.png" alt="" class="logo fl"> </a>
+            <!-- 菜单导航 nav/menu-->
+            <ul class="menu fr">
+                <li><a href="./index.html">首页</a></li>
+                <li>
+                    <a href="./aboutus.html">关于我们</a>
+                    <!-- 子菜单列表 -->
+                    <ul class="submenu">
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./products.html">产品展示</a>
+                    <ul class="submenu">
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./newsTrends.html">新闻动态</a>
+                    <ul class="submenu">
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="./message.html">在线留言</a>
+                    <ul class="submenu">
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./contactus.html">联系我们</a>
+                    <ul class="submenu">
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                        <li>菜单1</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 2.banner -->
+    <div class="banner">
+        <img src="./imgs/banner5.jpg" alt="">
+    </div>
+
+    <!-- 3.面包导航 -->
+    <div class="bread">
+        <div class="container">
+            <a href="./index.html">首页 >> </a>在线留言
+        </div>
+    </div>
+
+    <!-- 4.内容 关于我们 -->
+    <div class="container clearfix mt7">
+        <div class="silder fl">
+            <h3>在线留言</h3>
+            <ul>
+                <li>床上用品</li>
+                <li>家居饰品</li>
+                <li>居家日用</li>
+                <li>家居收纳</li>
+                <li>厨房收纳</li>
+                <li>厨房餐饮</li>
+            </ul>
+            <img src="./imgs/03_f0hi.jpg" alt="">
+        </div>
+        <div class="content fr">
+           <h3>您可以留下您宝贵的意见，我们会在第一时间回复您，谢谢关注！</h3>
+           <form action="" method="GET">
+            <ul>
+                <li>您的姓名 <span>*</span></li>
+                <li>
+                    <input type="name" name="usename">
+                </li>
+                <li>您的电话 <span>*</span></li>
+                <li>
+                    <input type="tel" name="phone">
+                </li>
+                <li>您的邮箱 <span>*</span></li>
+                <li>
+                    <input type="mall" name="e-mall">
+                </li>
+                <li>咨询项目 <span>*</span></li>
+                <li>
+                    <ul class="markup clearfix">
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                床上用品
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                家居饰品
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                居家日用
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                收纳用具
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                厨房收纳
+                            </li>
+                        </label>
+                        <label>
+                            <li>
+                                <input type="checkbox" checked>
+                                <span></span>
+                                厨房餐饮
+                            </li>
+                        </label>
+                    </ul>
+                    
+                </li>
+                <li>咨询内容 <span>*</span></li>
+                <li>
+                    <textarea ></textarea>
+                </li>
+                <li class="buttum">
+                    <input type="submit" >
+                </li>
+            </ul>
+           </form>
+        </div>
+        
+    </div>
+
+    <!--6. footer -->
+    <div id="footer">
+        <div class="container clearfix">
+            <div class="logoft fl">
+                <img src="./imgs/logo2.jpg" alt="">
+                <p>
+                    中国上海市XXX区XXX路12号XX大厦5层5XX室
+                    <br>
+                    400-000-XXXX (021)-12345678XX
+                    <br>
+                    12345678XXX@gmail.com
+                </p>
+            </div>
+            <div class="aft fl">
+                <h3 class="th3">快速连接</h3>
+                <ul class="clesrfix">
+                    <li><a href="./index.html">> 网站首页</a></li>
+                    <li><a href="./aboutus.html">> 关于我们</a></li>
+                    <li><a href="./products.html">> 产品展示</a></li>
+                    <li><a href="#">> 新闻动态</a></li>
+                    <li><a href="./message.html">> 在线留言</a></li>
+                    <li><a href="./contactus.html">> 联系我们</a></li>
+                </ul>
+
+            </div>
+            <div class="sft fl">
+                <!-- 小标题 -->
+                <h3 class="th3">站内搜索</h3>
+                <form action="#" method="GET">
+                    <input type="text" placeholder="请输入关键字"><input type="submit" value="搜索">
+                </form>
+                <p class="fenxiang">
+                    关注我们
+                    <i class="icon icon-wb"></i>
+                    <i class="icon icon-wx"></i>
+                </p>
+            </div>
+        </div>
+        <p class="tacenter copy">Copyright &copy; 2009-2011,www.xxxxxx.com,All rights reserved  沪ICP备XXXXXX号 未经同意，不得转载</p>
+    </div>
+</body>
+
+</html>

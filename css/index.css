@@ -1,0 +1,248 @@
+
+/* banner */
+#banner{
+    min-width: 1200px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+} 
+#bannerbox {
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#bannerbox li{
+    float: left;
+    position: relative;
+
+}
+#bannerbox li img{
+    width: 100%;
+    height: 550px;
+}
+#borderi{
+    width: 450px;
+    height: 170px;
+    padding-top: 40px;
+    background: url(../imgs/border.png);
+    position: absolute;
+    top: 170px;
+    left: 590px;
+    
+}
+#borderi h1{
+    
+    text-align: center;
+    line-height: 40px;
+    font-size: 44px;
+}
+#borderi p{
+    margin-top: 22px;
+    margin-bottom: 55px;
+}
+
+
+/* 产品+特色 */
+/* 特色 */
+#feature .item {
+    width: 320px;
+    height: 186px;
+    padding: 24px 40px 0;
+    margin-top: 27px;
+}
+
+#feature .item>h2 {
+    line-height: 60px;
+    font-size: 20px;
+}
+
+#feature .item>p {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+/* 产品图 */
+#products .leftbox {
+    width: 600px;
+    height: 580px;
+}
+
+#products .leftbox .items {
+    width: 270px;
+    height: 275px;
+    position: relative;
+    margin: 0 30px 30px 0;
+}
+
+#products .leftbox .items img {
+    width: 270px;
+    height: 275px;
+
+}
+
+#products .rightbox {
+    width: 600px;
+    height: 580px;
+    position: relative;
+}
+
+/* 蒙版层 */
+/* 左边 */
+#products .leftbox .items:hover .mask {
+    display: block;
+}
+
+#products .leftbox .items .mask .masktxt h3 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+/* 右边 */
+#products .rightbox .items:hover .mask {
+    display: block;
+}
+
+#products .rightbox .items .mask .masktxt h3 {
+    font-weight: normal;
+}
+#products .rightbox .items .mask .masktxt a{
+    display: inline-block;
+    width: 138px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-top: 22px;
+    border-radius: 23px;
+    border: 1px solid #6b6b6b;
+}
+
+/* 关于我们 */
+#aboutus {
+    background: url(../imgs/banner3.jpg) center;
+    padding: 65px 0 70px;
+    margin-top: 50px;
+    background-color: #f3f3f3;
+}
+
+#aboutus .us {
+    width: 684px;
+    margin: 0 auto;
+}
+
+#aboutus .us h3 {
+    line-height: 68px;
+    background: url(../imgs/nav_bg02.png) no-repeat center;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#aboutus .us p {
+    line-height: 34px;
+    color: #6b6b6b;
+    font-size: 16px;
+}
+
+#aboutus .us a {
+    display: inline-block;
+    width: 156px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    border-radius: 23px;
+    background: #15bded;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+/* 新闻 */
+#news .newbox {
+    width: 380px;
+    margin-top: 36px;
+}
+
+#news .newbox:not(:last-child) {
+    margin-right: 20px;
+}
+
+#news .newbox ul {
+    margin-top: 14px;
+}
+
+#news .newbox ul li {
+    width: 380px;
+    line-height: 34px;
+    font-size: 16px;
+    border-bottom: 1px solid #d8d8db;
+}
+
+#news .newbox ul li a:first-child {
+    color: #15bded;
+    float: left;
+}
+
+#news .newbox ul li a:nth-child(2) {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+#news .newbox ul li span {
+    color: #a5a5a5;
+    font-size: 12px;
+    float: right;
+}
+
+/* 在盒子中添加背景 */
+
+#qqbar{
+    width: 50px;
+    height: 200px;
+    position: fixed;
+    top: 300px;
+    right: 10px;
+    display: none;
+}
+
+
+#qqbar a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    background:url(../imgs/bg.png) no-repeat;
+    border-radius: 50%;
+}
+#qqbar .qq{
+    background-position-y: 0;
+}
+#qqbar .tel{
+    background-position-y: -50px;
+}
+#qqbar .wechat{
+    background-position-y: -100px;
+}
+#qqbar .bartop{
+    background-position-y: -150px;
+}
+#qqbar a span{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    background: rgb(89, 203, 248);
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}

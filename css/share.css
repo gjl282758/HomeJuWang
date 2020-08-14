@@ -1,0 +1,23 @@
+#share{
+    width: 50px;
+    height: 200px;
+    background: transparent;
+    position: fixed;
+    top: 400px;
+    left: -50px;
+    text-align: center;
+}
+#share img{
+    margin-top: 8px;
+}
+#title{
+    width: 20px;
+    padding: 2px;
+    background: rgb(134, 136, 201);
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
